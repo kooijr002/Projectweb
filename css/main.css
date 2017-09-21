@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Myriad pro";
+    src: local("myriadpro"), url ("MyriadPro-Regular.otf")format ("otf");
+}
+
+body {
+    background-color: #e7e6e9;
+    font-family: "Myriad pro";
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    padding: 1em;
+}
+
+#search {
+    height: 2em;
+}
+
+#profile {
+    height: 2em;
+}
+
+nav {
+    /*background-color: #fec818;
+    display: block;*/
+}
+
+main {
+    margin: 2em;
+}
+
+#submenu {
+    display: none;
+}
+
+#submenu:target {
+    display: block;
+}
+
+article {
+    object-position: center;
+    background-color: white;
+    margin: 2em;
+    left: 50%;
+    max-width: 40em;
+    padding: 2em;
+}
