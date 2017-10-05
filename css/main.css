@@ -22,7 +22,9 @@
 
 body {
     background-color: #e7e6e9;
+    color: #2575bb;
     font-family: "NS sans", "Myriad pro";
+
 }
 
 /* header navigatie*/
@@ -44,6 +46,7 @@ header nav ul li {
 }
 
 h1 {
+    color: #223a72;
     padding: 0 1em 1em;
 }
 
@@ -56,6 +59,7 @@ h1 {
 }
 
 form {
+
     text-align: right;
 
 }
@@ -94,20 +98,28 @@ main nav ul li {
 
 #submenu {
     display: none;
+
 }
 
 main > a {
-    color: green;
+    background-color: #223a72;
+    color: white;
+    padding: 1em;
 }
 
 #submenu:target {
     background-color: white;
     display: block;
+    margin: 1em;
+    width: 10em;
+
 }
 
 #submenu a {
     color: black;
     text-decoration: none;
+
+
 }
 
 /* Artikelen*/
@@ -120,6 +132,7 @@ section {
 }
 
 h3 {
+    color: #223a72;
     font-size: 2em;
 }
 
@@ -132,6 +145,7 @@ article {
     flex-direction: column;
 }
 
+
 #heart {
     height: 2em;
 }
@@ -140,18 +154,27 @@ article {
     height: 2em;
 }
 
+/* footers in artikelen*/
+
 footer {
     font-size: 0.8em;
 }
 
 footer a {
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
-    margin: 1em;
+    margin-top: 1em;
+
 }
 
 footer p {
-    float: right;
+    background-color: #e4b32f;
+    color: #223a72;
+    float: left;
+    margin-top: 2em;
+    padding: 0.5em;
+
 }
 
 #leesverder {
@@ -161,6 +184,4 @@ footer p {
     padding: 0.6em;
     width: 50%;
     box-shadow: 0 0.1em 0.1em #223a72;
-
-
 }
