@@ -1,0 +1,35 @@
+/* header navigatie*/
+
+header {
+    background-color: white;
+    box-shadow: 0 0.2em 0.2em #888888;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    display: block;
+}
+
+header nav ul li {
+    float: right;
+    padding: 1.1em;
+}
+
+h1 {
+    color: #223a72;
+    padding: 0 1em 1em;
+}
+
+#profile {
+    height: 2em;
+}
+
+#search {
+    height: 2em;
+}
+
+form {
+
+    text-align: right;
+}
+

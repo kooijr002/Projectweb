@@ -1,0 +1,49 @@
+main {
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+}
+
+fieldset {
+    text-align: left;
+    border: none;
+}
+
+#searching {
+    padding: 0.5em;
+    width: 40%;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input[type=text]:focus {
+    background-color: #e7e6e9;
+}
+
+h2 {
+    color: #223a72;
+    font-size: 1.8em;
+}
+
+#facebook {
+    background-color: #39589b;
+    color: white;
+    text-align: center;
+    padding: 0.6em;
+    width: 50%;
+    box-shadow: 0 0.1em 0.1em #223a72;
+
+}
+
+#aanmelden {
+    background-color: #2575bb;
+    color: white;
+    text-align: center;
+    padding: 0.6em;
+    width: 50%;
+    box-shadow: 0 0.1em 0.1em #223a72;
+}

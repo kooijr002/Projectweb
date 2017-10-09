@@ -27,42 +27,6 @@ body {
 
 }
 
-/* header navigatie*/
-
-header {
-    background-color: white;
-    box-shadow: 0 0.2em 0.2em #888888;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    display: block;
-}
-
-
-header nav ul li {
-    float: right;
-    padding: 1.1em;
-}
-
-h1 {
-    color: #223a72;
-    padding: 0 1em 1em;
-}
-
-#profile {
-    height: 2em;
-}
-
-#search {
-    height: 2em;
-}
-
-form {
-
-    text-align: right;
-
-}
 
 /* foto bovenaan*/
 
@@ -81,7 +45,7 @@ main nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 2em;
+    margin: -1em 2em 1.5em 2em;
 }
 
 main nav ul {
@@ -105,20 +69,23 @@ main > a {
     background-color: #223a72;
     color: white;
     padding: 1em;
+
+
 }
 
 #submenu:target {
     background-color: white;
     display: block;
-    margin: 1em;
-    width: 10em;
+    margin-top: 1em;
+    width: 11em;
+    box-shadow: 0 0.1em 0.1em #223a72;
+
 
 }
 
 #submenu a {
     color: black;
     text-decoration: none;
-
 
 }
 
@@ -128,7 +95,6 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
 }
 
 h3 {
@@ -144,7 +110,6 @@ article {
     display: flex;
     flex-direction: column;
 }
-
 
 #heart {
     height: 2em;
