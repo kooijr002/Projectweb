@@ -2,7 +2,7 @@
 
 header {
     background-color: white;
-    box-shadow: 0 0.05em 0.05em #888888;
+    box-shadow: 0 0.01em 0.01em #888888;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -30,4 +30,18 @@ nav ul img:nth-of-type(1) {
 
 form {
     text-align: right;
+}
+
+form input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 15em;
+}
+
+button {
+    background: #2575bb;
+    color: white;
+    font-family: "NS sans", "Myriad pro", "Verdana";
+    font-size: 1em;
+    padding: 0.6em;
 }

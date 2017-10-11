@@ -33,17 +33,7 @@ body {
     width: 100%;
 }
 
-#searching {
-    padding: 0.5em;
-    width: 40%;
-}
 
-button {
-    background: #2575bb;
-    color: white;
-    font-family: "NS sans", "Myriad pro", "Verdana";
-    padding: 0.5em;
-}
 
 /* Zoekbalk*/
 
@@ -70,7 +60,6 @@ main nav ul li {
 
 #submenu {
     display: none;
-
 }
 
 main > a {
@@ -84,7 +73,7 @@ main > a {
     display: block;
     margin-top: 1em;
     width: 11em;
-    box-shadow: 0 0.1em 0.1em #223a72;
+    box-shadow: 0 0.01em 0.01em #223a72;
 }
 
 #submenu a {
@@ -98,6 +87,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
 }
 
 h3 {
@@ -112,6 +102,12 @@ article {
     padding: 2em;
     display: flex;
     flex-direction: column;
+}
+
+@media(min-width: 20em) {
+    article {
+        max-width: 22em;
+    }
 }
 
 #heart {
