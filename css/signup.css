@@ -1,17 +1,19 @@
 main {
     background-color: white;
     margin: 2em;
+    max-width: 40em;
     padding: 2em;
+}
+
+@media(min-width: 44em) {
+    main {
+        margin: 2em auto;
+    }
 }
 
 fieldset {
     text-align: left;
     border: none;
-}
-
-#searching {
-    padding: 0.5em;
-    width: 40%;
 }
 
 input {
@@ -27,23 +29,30 @@ input[type=text]:focus {
 h2 {
     color: #223a72;
     font-size: 1.8em;
+    margin-bottom: 0.8em;
 }
 
-#facebook {
+legend {
+    margin-bottom: 1em;
+}
+
+label {
+    font-size: 0.8em;
+}
+
+#facebook,
+#aanmelden {
     background-color: #39589b;
-    color: white;
-    text-align: center;
-    padding: 0.6em;
-    width: 50%;
     box-shadow: 0 0.1em 0.1em #223a72;
+    color: white;
+    display: block;
+    margin-top: 1em;
+    padding: 0.7em;
+    text-align: center;
 
 }
 
 #aanmelden {
     background-color: #2575bb;
-    color: white;
-    text-align: center;
-    padding: 0.6em;
-    width: 50%;
-    box-shadow: 0 0.1em 0.1em #223a72;
+
 }

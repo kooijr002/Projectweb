@@ -2,7 +2,7 @@
 
 header {
     background-color: white;
-    box-shadow: 0 0.2em 0.2em #888888;
+    box-shadow: 0 0.05em 0.05em #888888;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -17,19 +17,17 @@ header nav ul li {
 
 h1 {
     color: #223a72;
-    padding: 0 1em 1em;
+    padding: 0.4em 1em;
 }
 
-#profile {
-    height: 2em;
+nav ul img:first-of-type {
+    height: 1.5em;
 }
 
-#search {
-    height: 2em;
+nav ul img:nth-of-type(1) {
+    height: 1.5em;
 }
 
 form {
-
     text-align: right;
 }
-
