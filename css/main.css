@@ -157,7 +157,7 @@ footer p {
 }
 
 #alzheimerverhaal {
-    width: 80em;
+    max-width: 25em;
 }
 
 #blindverhaal {
