@@ -33,8 +33,6 @@ body {
     width: 100%;
 }
 
-
-
 /* Zoekbalk*/
 
 /* Navigatie in de main*/
@@ -148,18 +146,4 @@ footer p {
     padding: 0.6em;
     width: 50%;
     box-shadow: 0 0.1em 0.1em #223a72;
-}
-
-/* Kinderboek artikel*/
-
-#kinderboekverhaal {
-    width: 150em;
-}
-
-#alzheimerverhaal {
-    max-width: 25em;
-}
-
-#blindverhaal {
-    width: 79em;
 }
