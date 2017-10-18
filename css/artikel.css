@@ -50,19 +50,50 @@ body {
 /* img kinderboek*/
 
 #kinderboek {
-    background-image: url("img/newalzheimer-09.jpg");
+    background-image: url("img/Kinderboekverhaallaag-04.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 25em;
-    height: 115em;
+    height: 130em;
 }
 
 @media (min-width: 44em) {
     #kinderboek {
-        background-image: url("img/Kinderboekverhaal.jpg");
+        background-image: url("img/Kinderboekverhaallaag-02.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         width: 150em;
-        height: 35em;
+        height: 50em;
+    }
+}
+
+/* img blind*/
+
+#blind {
+    background-image: url("img/verschillende-05.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25em;
+    height: 190em;
+}
+
+@media (min-width: 44em) {
+    #blind {
+        background-image: url("img/verschillende-07.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 60em;
+
+    }
+}
+
+@media (min-width: 80em) {
+    #blind {
+        background-image: url("img/verschillende-06.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 110%;
+
+
     }
 }
