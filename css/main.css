@@ -28,7 +28,7 @@ body {
 
 /* foto bovenaan*/
 
-#reading {
+header img {
     max-height: 20em;
     width: 100%;
 }

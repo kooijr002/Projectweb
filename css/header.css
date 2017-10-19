@@ -36,6 +36,11 @@ form input {
     padding: 12px 20px;
     margin: 8px 0;
     width: 15em;
+    opacity: 0;
+}
+
+form input:focus {
+    opacity: 1;
 }
 
 button {

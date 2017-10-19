@@ -31,13 +31,23 @@ body {
 
 #alzheimer {
     background-image: url("img/newalzheimer-09.jpg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     width: 25em;
     height: 115em;
 }
 
 @media (min-width: 44em) {
+    #alzheimer {
+        background-image: url("img/Alzheimerverhaal-10.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 70em;
+        height: 140em;
+    }
+}
+
+@media (min-width: 70em) {
     #alzheimer {
         background-image: url("img/newalzheimer-08.jpg");
         background-size: cover;
@@ -83,7 +93,6 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         width: 60em;
-
     }
 }
 
@@ -93,7 +102,55 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         width: 110%;
-
-
     }
+}
+
+section {
+    background-color: white;
+    padding: 1em;
+    max-width: 25em;
+    margin: 2em;
+}
+
+section p {
+    margin-bottom: 1em;
+}
+
+@media(min-width: 44em) {
+    section {
+        margin: 2em auto;
+    }
+}
+
+#meerlezen {
+    background-color: #2575bb;
+    box-shadow: 0 0.1em 0.1em #223a72;
+    color: white;
+    text-align: center;
+    padding: 0.6em;
+    width: 50%;
+}
+
+#heart {
+    height: 2em;
+    background: white;
+}
+
+#add {
+    height: 2em;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+
+footer p {
+    background-color: #e4b32f;
+    color: #223a72;
+    float: left;
+    padding: 0.5em;
 }
