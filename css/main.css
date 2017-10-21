@@ -102,6 +102,26 @@ article {
     flex-direction: column;
 }
 
+article:nth-of-type(1):hover {
+    background-image: url("img/hoverfoto.jpg");
+}
+
+article:nth-of-type(3):hover {
+    background-image: url("img/hoverfotoblind.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35em;
+    height: 22.2em;
+}
+
+article:nth-of-type(4):hover {
+    background-image: url("img/hoverfotokinder-05.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35em;
+    height: 22.2em;
+}
+
 /* media query om de pagina responsive te maken */
 
 @media(min-width: 20em) {
@@ -114,7 +134,7 @@ article {
 
 footer img:nth-of-type(1) {
     height: 2em;
-    background: white;
+
 }
 
 /* plusje in artikel */
@@ -142,7 +162,7 @@ footer p {
     padding: 0.5em;
 }
 
-#leesverder {
+article a {
     background-color: #2575bb;
     box-shadow: 0 0.1em 0.1em #223a72;
     color: white;

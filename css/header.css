@@ -32,31 +32,21 @@ form {
     text-align: right;
 }
 
-form input {
+#searchbar {
     padding: 12px 20px;
     margin: 8px 0;
     width: 15em;
     opacity: 0;
 }
 
-form input:focus {
+#searchbar:focus {
     opacity: 1;
 }
 
-button {
+form button {
     background: #2575bb;
     color: white;
     font-family: "NS sans", "Myriad pro", "Verdana";
     font-size: 1em;
     padding: 0.6em;
-}
-
-.boek {
-    position: absolute;
-    margin-left: 22em;
-    display: none;
-}
-
-.laatzien {
-    display: block;
 }

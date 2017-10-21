@@ -4,40 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/header.css" rel="stylesheet">
     <link href="css/signup.css" rel="stylesheet">
-    <title>Inlogscherm</title>
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <title>Verhalen voor onderweg</title>
 </head>
+
+<!-- body -->
 
 <body>
 
     <header>
+
         <nav>
 
-            <ul id="search">
+            <ul id="navigation">
 
                 <li>
                     <a href="inlogscherm.html"> <img id="profile" src="Assets/gebruikericon.png" alt="profilebutton">
                     </a>
                 </li>
+                <li>
+                    <a href="inlogscherm.html"> <img class="boek" id="profile" src="Assets/80719-200.png" alt="profilebutton">
+                    </a>
+                </li>
 
                 <li>
-                    <label for="searching"> <img id="search" src="Assets/searchicon.png" alt="searchbutton"></label>
+                    <label for="searching"> <img id="search" src="Assets/searchicon.png" alt="searchbutton">
+                    </label>
                 </li>
 
 
             </ul>
-
 
             <a href="index.html">
                 <h1>NS Verhalen voor onderweg</h1>
             </a>
 
             <form action="/">
-                <input type="text" id="searching">
-                <button>Ga!</button>
+                <input type="text" id="searchbar">
+                <button>Ga ></button>
             </form>
+
         </nav>
     </header>
     <img id="reading" src="Assets/grandma2.png">
@@ -50,6 +58,7 @@
                 <legend>Maak een account aan</legend>
                 <label for="naam">Naam</label>
                 <input type="text" placeholder="Naam">
+
                 <label for="email">Emailadres</label>
                 <input type="email" placeholder="Email">
                 <label for="Gebruikersnaam">Gebruikersnaam</label>
@@ -57,6 +66,7 @@
                 <label for="wachtwoord">Wachtwoord</label>
                 <input type="password" placeholder="8-15 karakters" id="wachtwoord">
 
+                <p class="feedback">Alles is goed ingevuld!</p>
 
                 <a href="https://nl-nl.facebook.com/" id="facebook">Login met Facebook ></a>
                 <a href="index.html" id="aanmelden">Aanmelden ></a>
