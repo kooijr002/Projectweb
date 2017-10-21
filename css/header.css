@@ -50,3 +50,13 @@ button {
     font-size: 1em;
     padding: 0.6em;
 }
+
+.boek {
+    position: absolute;
+    margin-left: 22em;
+    display: none;
+}
+
+.laatzien {
+    display: block;
+}

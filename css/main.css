@@ -28,7 +28,7 @@ body {
 
 /* foto bovenaan*/
 
-header img {
+body > img {
     max-height: 20em;
     width: 100%;
 }
@@ -102,18 +102,24 @@ article {
     flex-direction: column;
 }
 
+/* media query om de pagina responsive te maken */
+
 @media(min-width: 20em) {
     article {
         max-width: 22em;
     }
 }
 
-#heart {
+/* hartje in artikel */
+
+footer img:nth-of-type(1) {
     height: 2em;
     background: white;
 }
 
-#add {
+/* plusje in artikel */
+
+footer img:nth-of-type(2) {
     height: 2em;
 }
 
@@ -123,12 +129,9 @@ footer {
     font-size: 0.8em;
 }
 
-footer a {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-top: 1em;
-
+footer img,
+footer img {
+    margin: 2em 0 0 2em;
 }
 
 footer p {
@@ -141,9 +144,11 @@ footer p {
 
 #leesverder {
     background-color: #2575bb;
-    color: white;
-    text-align: center;
-    padding: 0.6em;
-    width: 50%;
     box-shadow: 0 0.1em 0.1em #223a72;
+    color: white;
+    margin-top: 1em;
+    padding: 0.6em;
+    text-align: center;
+    width: 50%;
+
 }
