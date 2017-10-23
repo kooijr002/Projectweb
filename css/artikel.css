@@ -1,3 +1,5 @@
+/* hovers:https://codepen.io/nxworld/pen/ZYNOBZ*/
+
 * {
     margin: 0;
     padding: 0;
@@ -35,6 +37,15 @@ body {
     background-repeat: no-repeat;
     width: 25em;
     height: 115em;
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+#alzheimer:hover {
+    -webkit-filter: blur(0);
+    filter: blur(0);
 }
 
 @media (min-width: 44em) {
@@ -44,6 +55,10 @@ body {
         background-repeat: no-repeat;
         width: 70em;
         height: 140em;
+        -webkit-filter: blur(3px);
+        filter: blur(3px);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
     }
 }
 
@@ -54,6 +69,10 @@ body {
         background-repeat: no-repeat;
         width: 80em;
         height: 130em;
+        -webkit-filter: blur(3px);
+        filter: blur(3px);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
     }
 }
 
@@ -65,6 +84,13 @@ body {
     background-repeat: no-repeat;
     width: 25em;
     height: 130em;
+    margin-left: 0px;
+    transform: scale(1.0);
+    transition: .3s ease-in-out;
+}
+
+#kinderboek:hover {
+    margin-left: 2em;
 }
 
 @media (min-width: 44em) {
@@ -85,6 +111,11 @@ body {
     background-repeat: no-repeat;
     width: 25em;
     height: 190em;
+    transition: .3s ease-in-out;
+}
+
+#blind:hover {
+    width: 1em;
 }
 
 @media (min-width: 44em) {
@@ -122,7 +153,7 @@ section p {
     }
 }
 
-#meerlezen {
+section > a {
     background-color: #2575bb;
     box-shadow: 0 0.1em 0.1em #223a72;
     color: white;
