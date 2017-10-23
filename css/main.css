@@ -134,10 +134,28 @@ footer img:nth-of-type(1) {
     height: 2em;
 }
 
+#hartje {
+    height: 2em;
+    position: relative;
+    margin-left: -2.5em;
+    display: hidden;
+}
+
+#hartje.rood {
+    transition: all 0.2s;
+    display: block;
+}
+
 /* plusje in artikel */
 
-footer img:nth-of-type(2) {
+footer img:nth-of-type(3) {
     height: 2em;
+}
+
+
+/*#eentje.yay {
+    transition: all 0.2s;
+    opacity: 1;
 }
 
 /*.toevoegen {
