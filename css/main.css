@@ -137,13 +137,13 @@ footer img:nth-of-type(1) {
 #hartje {
     height: 2em;
     position: relative;
-    margin-left: -2.5em;
-    display: hidden;
+    margin-left: -0.5em;
+    opacity: 0;
 }
 
 #hartje.rood {
     transition: all 0.2s;
-    display: block;
+    opacity: 1;
 }
 
 /* plusje in artikel */
