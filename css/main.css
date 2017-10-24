@@ -134,11 +134,11 @@ footer img:nth-of-type(1) {
     height: 2em;
 }
 
-#hartje {
+#roodje {
     height: 2em;
     position: relative;
     margin-left: -0.5em;
-    opacity: 0;
+
 }
 
 #hartje.rood {
