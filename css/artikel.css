@@ -91,6 +91,7 @@ body {
 
 #kinderboek:hover {
     margin-left: 2em;
+
 }
 
 @media (min-width: 44em) {
@@ -116,6 +117,7 @@ body {
 
 #blind:hover {
     width: 1em;
+
 }
 
 @media (min-width: 44em) {
@@ -177,7 +179,6 @@ footer {
     justify-content: space-between;
     margin-top: 2em;
 }
-
 
 footer p {
     background-color: #e4b32f;
