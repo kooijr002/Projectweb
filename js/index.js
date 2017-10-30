@@ -9,6 +9,7 @@ plus.addEventListener("click", function () {
     een.classList.toggle("yay");
 });
 
+
 function zien() {
     document.getElementById("hartjeNiet").style.display = "none"
     document.getElementById("hartjeRood").style.display = "inline-block"
@@ -16,3 +17,4 @@ function zien() {
 }
 document.getElementById("hartjeNiet").addEventListener("click", zien);
 document.getElementById("hartjeRood").addEventListener("click", zien);
+
