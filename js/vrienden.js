@@ -4,7 +4,8 @@ var gevonden = document.querySelector("#gevonden");
 var leukp = document.querySelector("#leuk");
 
 function geefLeuk() {
-    leukp.innerHTML = "Toegevoegd aan leeslijst van Jaap Knaap, Klaas Jan, Grace Kelly en jij.";
+    leukp.innerHTML = "Toegevoegd aan leeslijst van Jaap Knaap, Klaas Jan, Kelly de Graaf en jou.";
+    leukp.classList.toggle("verander");
 }
 gevonden.addEventListener("click", geefLeuk);
 
