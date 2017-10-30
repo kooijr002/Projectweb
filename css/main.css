@@ -192,5 +192,9 @@ article a {
     ]
 }
 
+#leuk.nu {
+    transition: all 0.2s;
+    opacity: 1;
+}
 
 /* VERHALENLIJST PAGINA*/
