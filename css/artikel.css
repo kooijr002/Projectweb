@@ -53,8 +53,7 @@ body {
         background-image: url("img/Alzheimerverhaal-10.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        width: 70em;
-        height: 140em;
+        width: 100%;
         -webkit-filter: blur(3px);
         filter: blur(3px);
         -webkit-transition: .3s ease-in-out;
@@ -62,7 +61,7 @@ body {
     }
 }
 
-@media (min-width: 70em) {
+@media (min-width: 80em) {
     #alzheimer {
         background-image: url("img/newalzheimer-08.jpg");
         background-size: cover;
