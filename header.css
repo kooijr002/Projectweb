@@ -1,0 +1,70 @@
+/* header navigatie*/
+
+header {
+    background-color: white;
+    box-shadow: 0 0.01em 0.01em #888888;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    display: block;
+}
+
+header nav ul li {
+    float: right;
+    padding: 1.1em;
+}
+
+h1 {
+    color: #223a72;
+    padding: 0.4em 1em;
+}
+
+
+nav ul li img:nth-of-type(1) {
+    height: 1.5em;
+}
+
+#eentje {
+    position: absolute;
+    margin-left: 3em;
+    opacity: 0;
+}
+
+#eentje.yay {
+    transition: all 0.2s;
+    opacity: 1;
+}
+
+nav ul li img:nth-of-type(3) {
+    height: 1.5em;
+
+}
+
+form {
+    text-align: right;
+}
+
+#searching {
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 15em;
+    opacity: 0;
+}
+
+#searching:focus {
+    opacity: 1;
+}
+
+form button {
+    background: #2575bb;
+    color: white;
+    font-family: "NS sans", "Myriad pro", "Verdana";
+    font-size: 1em;
+    padding: 0.6em;
+    opacity: 0;
+}
+
+form button:hover {
+    opacity: 1;
+}
