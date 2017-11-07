@@ -32,7 +32,7 @@ body {
 /* img alzheimer */
 
 #alzheimer {
-    background-image: url("img/newalzheimer-09.jpg");
+    background-image: url("img/Alzheimerverhaalneww-09.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 25em;
@@ -50,7 +50,7 @@ body {
 
 @media (min-width: 44em) {
     #alzheimer {
-        background-image: url("img/Alzheimerverhaal-10.jpg");
+        background-image: url("img/Alzheimerverhaalneww-10.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
@@ -63,7 +63,7 @@ body {
 
 @media (min-width: 80em) {
     #alzheimer {
-        background-image: url("img/newalzheimer-08.jpg");
+        background-image: url("img/Alzheimerverhaalneww-08.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         width: 80em;
